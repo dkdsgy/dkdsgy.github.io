@@ -5,10 +5,47 @@
 		<meta name="description" content="大邵公益小商店" />
 		<style type="text/css">
 		<!--CSS样式代码位置-->
+		
+
+        .ui-flex {
+            display: -webkit-box !important;
+            display: -webkit-flex !important;
+            display: -ms-flexbox !important;
+            display: flex !important;
+            -webkit-flex-wrap: wrap;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap
+        }
+
+        .ui-flex, .ui-flex *, .ui-flex :after, .ui-flex :before {
+            box-sizing: border-box
+        }
+
+        .ui-flex.justify-center {
+            -webkit-box-pack: center;
+            -webkit-justify-content: center;
+            -ms-flex-pack: center;
+            justify-content: center
+        }
+        .ui-flex.center {
+            -webkit-box-pack: center;
+            -webkit-justify-content: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -webkit-align-items: center;
+            -ms-flex-align: center;
+            align-items: center
+        }	
+		
 		</style>
 	</head>
 
 	<body>
-		<img src="./xcx.jpg" alt="logo" width="30%">
+		<div class="ui-flex justify-center center" style="border: green solid 1px; width: 500px; height: 200px;">
+    <div class="cell">
+    <img alt="" src="./xcx.jpg" style="" />
+    </div>
+</div>
 	</body>
 </html>
